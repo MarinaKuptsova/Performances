@@ -3,10 +3,52 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              xmlns:local="clr-namespace:Performances.Client.View"
+             xmlns:dataAccess="clr-namespace:Performances.Client.DataAccess"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid>
-            
+         <Grid.RowDefinitions>
+             <RowDefinition Height="*"/>
+             <RowDefinition Height="*" />
+             <RowDefinition Height="*"/>
+             <RowDefinition Height="*"/>
+             <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+
+        <TextBox materialDesign:HintAssist.Hint="Имя"
+                 Grid.Row="0"
+                 VerticalAlignment="Center"
+                 HorizontalAlignment="Stretch"
+                 Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                 Text="{Binding RegisterUser.Name}"/>
+        <TextBox materialDesign:HintAssist.Hint="Фамилия"
+                 Grid.Row="1"
+                 VerticalAlignment="Center"
+                 HorizontalAlignment="Stretch"
+                 Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                 Text="{Binding RegisterUser.Surname}" />
+        <TextBox materialDesign:HintAssist.Hint="Email"
+                 Grid.Row="2"
+                 VerticalAlignment="Center"
+                 HorizontalAlignment="Stretch"
+                 Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                 Text="{Binding RegisterUser.Email}" />
+
+        <PasswordBox materialDesign:HintAssist.Hint="Пароль"
+                     Style="{StaticResource MaterialDesignFloatingHintPasswordBox}"
+                     Grid.Row="3"
+                     HorizontalAlignment="Stretch"
+                     VerticalAlignment="Center"                     
+                     dataAccess:PasswordBoxAssistant.BindPassword="True"
+                     dataAccess:PasswordBoxAssistant.BoundPassword="{Binding RegisterUser.Password, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+
+        <Button Grid.Row="4"
+                Style="{StaticResource MaterialDesignRaisedButton}"
+                Margin="65 20 65 0"
+                Command="{Binding CreateUserCommand}"
+                CommandParameter="{Binding}">Зарегистрироваться</Button>
+
     </Grid>
 </UserControl>
