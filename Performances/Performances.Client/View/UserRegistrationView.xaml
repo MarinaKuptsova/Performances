@@ -19,6 +19,7 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
         <TextBox materialDesign:HintAssist.Hint="Имя"
@@ -92,9 +93,15 @@
 
         <Button Grid.Row="8"
                 Style="{StaticResource MaterialDesignRaisedButton}"
-                Margin="65 20 65 0"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
                 Command="{Binding CreateUserCommand}"
                 CommandParameter="{Binding}">Зарегистрироваться</Button>
-
+        <Button Grid.Row="9"
+                Style="{StaticResource MaterialDesignFlatButton}"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Command="{Binding ToLoginCommand}"
+                CommandParameter="{Binding}">Уже зарегистрированы?</Button>
     </Grid>
 </UserControl>

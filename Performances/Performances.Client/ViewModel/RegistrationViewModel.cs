@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Media.Imaging;
+using MaterialDesignThemes.Wpf;
 using Performances.Api.Models;
 using Performances.Client.Commands;
 using Performances.Client.Model;
@@ -16,7 +17,7 @@ using Performances.Model;
 
 namespace Performances.Client.ViewModel
 {
-    public class RegistrationViewModel : BaseModel
+    public class RegistrationViewModel : BaseModel, IScreen
     {
         public MainViewModel Parent { get; set; }
 
@@ -26,17 +27,21 @@ namespace Performances.Client.ViewModel
         
         public UserRegistrationView uRegistrationView { get; set; } 
         public CreativeTeamRegistrationView ctRegistrationView { get; set; }
+        public WelcomeView wView { get; set; }
 
         public string Warning { get; set; }
         public BitmapImage ImageThumbnail { get; set; }
         
+        public RegisterStates RegisterState { get; set; }
 
         public RegistrationViewModel(MainViewModel mvm)
         {
             Parent = mvm;
+            RegisterState = RegisterStates.None;
         }
 
-        #region GetAvatar
+        #region OpenFileDialogCommand
+
         private RelayCommand _openFileDialogCommand;
 
         public RelayCommand OpenFileDialogCommand
@@ -81,7 +86,7 @@ namespace Performances.Client.ViewModel
 
         #endregion
 
-        #region Registration
+        #region CreateUserCommand
 
         private RelayCommand _createUserCommand;
 
@@ -121,9 +126,8 @@ namespace Performances.Client.ViewModel
         }
 
         #endregion
-
-
-        #region Registration
+        
+        #region CreateCreativeTeamCommand
 
         private RelayCommand _createCreativeTeamCommand;
 
@@ -131,7 +135,7 @@ namespace Performances.Client.ViewModel
         {
             get
             {
-                return _createUserCommand ?? (_createCreativeTeamCommand =
+                return _createCreativeTeamCommand ?? (_createCreativeTeamCommand =
                            new RelayCommand(param => ExecuteCreateCreativeTeamCommand(param),
                                param => CanExecuteCreateCreativeTeamCommand(param)));
             }
@@ -165,5 +169,105 @@ namespace Performances.Client.ViewModel
 
         #endregion
 
+        #region ShowUserRegistrationViewCommand
+
+        private RelayCommand _showUserRegistrationViewCommand;
+
+        public RelayCommand ShowUserRegistrationViewCommand
+        {
+            get
+            {
+                return _showUserRegistrationViewCommand ?? (_showUserRegistrationViewCommand =
+                           new RelayCommand(param => ExecuteShowUserRegistrationViewCommand(param),
+                               param => CanExecuteShowUserRegistrationViewCommand(param)));
+            }
+        }
+
+        public void ExecuteShowUserRegistrationViewCommand(object param)
+        {
+            RegisterState = RegisterStates.AsUser;
+            Parent.SetScreen();
+        }
+
+        public bool CanExecuteShowUserRegistrationViewCommand(object param)
+        {
+            return true;
+        }
+
+        #endregion
+
+        #region ShowCreativeTeamRegistrationViewCommand
+
+        private RelayCommand _showCreativeTeamRegistrationViewCommand;
+
+        public RelayCommand ShowCreativeTeamRegistrationViewCommand
+        {
+            get
+            {
+                return _showCreativeTeamRegistrationViewCommand ?? (_showCreativeTeamRegistrationViewCommand =
+                           new RelayCommand(param => ExecuteShowCreativeTeamRegistrationViewCommand(param),
+                               param => CanExecuteShowCreativeTeamRegistrationViewCommand(param)));
+            }
+        }
+
+        public void ExecuteShowCreativeTeamRegistrationViewCommand(object param)
+        {
+            RegisterState = RegisterStates.AsCreativeTeam;
+            Parent.SetScreen();
+        }
+
+        public bool CanExecuteShowCreativeTeamRegistrationViewCommand(object param)
+        {
+            return true;
+        }
+
+        #endregion
+
+        #region ToLoginCommand
+
+        private RelayCommand _toLoginCommand;
+
+        public RelayCommand ToLoginCommand
+        {
+            get
+            {
+                return _createUserCommand ?? (_toLoginCommand =
+                           new RelayCommand(param => ExecuteToLoginCommand(param),
+                               param => CanExecuteToLoginCommand(param)));
+            }
+        }
+
+        public void ExecuteToLoginCommand(object param)
+        {
+            Parent.CurrentScreenType = ScreenTypes.Login;
+            Parent.SetScreen();
+        }
+
+        public bool CanExecuteToLoginCommand(object param)
+        {
+            return true;
+        }
+
+        #endregion
+
+        public object View()
+        {
+            switch (RegisterState)
+            {
+                case RegisterStates.None:
+                    return wView ?? (wView = new WelcomeView() { DataContext = this });
+                case RegisterStates.AsUser:
+                    return uRegistrationView ?? (uRegistrationView = new UserRegistrationView() {DataContext = this});
+                case RegisterStates.AsCreativeTeam:
+                    return ctRegistrationView ??
+                           (ctRegistrationView = new CreativeTeamRegistrationView() {DataContext = this});
+                default:
+                    return null;
+            }
+        }
+
+        public void Initialize()
+        {
+        }
     }
 }

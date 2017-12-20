@@ -1,0 +1,54 @@
+﻿<UserControl x:Class="Performances.Client.View.WelcomeView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:local="clr-namespace:Performances.Client.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <materialDesign:DialogHost IsOpen="True">
+             <materialDesign:DialogHost.DialogContent>
+                 <Grid>
+                     <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                     <Grid.ColumnDefinitions>
+                         <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Row="0"
+                            Grid.Column="0"
+                            Grid.ColumnSpan="2"
+                           HorizontalAlignment="Center">Добро пожаловать!</Label>
+                    <Label Grid.Row="1"
+                            Grid.Column="0"
+                            Grid.ColumnSpan="2"
+                            HorizontalAlignment="Center">Выберите, как зарегистрироваться.</Label>
+                    <Button Grid.Row="2"
+                            Style="{StaticResource MaterialDesignRaisedButton}"
+                            Grid.Column="0"
+                            Margin="8"
+                            Content="Я зритель"
+                            Command="{Binding ShowUserRegistrationViewCommand}"></Button>
+                    <Button Grid.Row="2"
+                            Style="{StaticResource MaterialDesignRaisedButton}"
+                            Grid.Column="1"
+                            Margin="8"
+                            Content="Я выступаю"
+                            Command="{Binding ShowCreativeTeamRegistrationViewCommand}"></Button>
+                     <Button Grid.Row="3"
+                             Grid.Column="0"
+                             Grid.ColumnSpan="2"
+                             Style="{StaticResource MaterialDesignFlatButton}"
+                             Content="Я уже зарегистрирован"
+                             Command="{Binding ToLoginCommand}"></Button>
+                </Grid>
+             </materialDesign:DialogHost.DialogContent>
+         </materialDesign:DialogHost>   
+    </Grid>
+</UserControl>

@@ -14,4 +14,11 @@ namespace Performances.Client.Model
         Profile,
         EventProfile
     }
+
+    public enum RegisterStates
+    {
+        None,
+        AsUser,
+        AsCreativeTeam
+    }
 }
