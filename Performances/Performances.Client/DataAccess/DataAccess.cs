@@ -6,6 +6,7 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
+using Performances.Api.Models;
 using Performances.Model;
 
 namespace Performances.Client.DataAccess
@@ -21,6 +22,8 @@ namespace Performances.Client.DataAccess
             _client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
         }
 
+        #region UserMethods
+
         public static async Task<User> LoginUser(string Email, string Password)
         {
             var path = "api/user" + Email + "/" + Password;
@@ -31,5 +34,47 @@ namespace Performances.Client.DataAccess
             }
             return null;
         }
+
+        public static async Task<User> CreateUser(CreateUserParameters userParam)
+        {
+            HttpResponseMessage response;
+            response = await _client.PostAsJsonAsync("api/user",
+                new CreateUserParameters()
+                {
+                    photo = userParam.photo,
+                    user = userParam.user,
+                });
+            if (response.IsSuccessStatusCode)
+            {
+                return await response.Content.ReadAsAsync<User>();
+            }
+            return null;
+        }
+
+        #endregion
+
+        #region CreativeTeamMethods
+
+        public static async Task<CreativeTeam> CreateCreativeTeam(CreateCreativeTeamParameters creativeTeamParam)
+        {
+
+            HttpResponseMessage response;
+            response = await _client.PostAsJsonAsync("api/creativeteam",
+                new CreateCreativeTeamParameters()
+                {
+                    photo = creativeTeamParam.photo,
+                    creativeTeam = creativeTeamParam.creativeTeam,
+                    filename = creativeTeamParam.filename
+                });
+            if (response.IsSuccessStatusCode)
+            {
+                return await response.Content.ReadAsAsync<CreativeTeam>();
+            }
+            return null;
+        }
+
+        #endregion
+
+
     }
 }

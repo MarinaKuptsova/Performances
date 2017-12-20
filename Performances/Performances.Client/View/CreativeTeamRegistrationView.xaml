@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="Performances.Client.View.CreativeTeamRegistrationView"
+﻿<UserControl x:Class="Performances.Client.View.UserRegistrationView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -7,44 +7,85 @@
              xmlns:local="clr-namespace:Performances.Client.View"
              xmlns:dataAccess="clr-namespace:Performances.Client.DataAccess"
              mc:Ignorable="d" 
-             d:DesignHeight="300" d:DesignWidth="300">
+             d:DesignHeight="500" d:DesignWidth="300">
     <Grid>
-         <Grid.RowDefinitions>
-             <RowDefinition Height="*"/>
-             <RowDefinition Height="*" />
-             <RowDefinition Height="*"/>
-             <RowDefinition Height="*"/>
-             <RowDefinition Height="2*"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="2*"/>
         </Grid.RowDefinitions>
 
-        <TextBox materialDesign:HintAssist.Hint="Имя"
+        <TextBox materialDesign:HintAssist.Hint="Название"
                  Grid.Row="0"
                  VerticalAlignment="Center"
                  HorizontalAlignment="Stretch"
                  Style="{StaticResource MaterialDesignFloatingHintTextBox}"
-                 Text="{Binding RegisterUser.Name}"/>
-        <TextBox materialDesign:HintAssist.Hint="Фамилия"
+                 Text="{Binding RegisterCreativeTeam.Name}"/>
+        <TextBox materialDesign:HintAssist.Hint="Email"
                  Grid.Row="1"
                  VerticalAlignment="Center"
                  HorizontalAlignment="Stretch"
                  Style="{StaticResource MaterialDesignFloatingHintTextBox}"
-                 Text="{Binding RegisterUser.Surname}" />
-        <TextBox materialDesign:HintAssist.Hint="Email"
-                 Grid.Row="2"
-                 VerticalAlignment="Center"
-                 HorizontalAlignment="Stretch"
-                 Style="{StaticResource MaterialDesignFloatingHintTextBox}"
-                 Text="{Binding RegisterUser.Email}" />
+                 Text="{Binding RegisterCreativeTeam.Email}" />
 
         <PasswordBox materialDesign:HintAssist.Hint="Пароль"
                      Style="{StaticResource MaterialDesignFloatingHintPasswordBox}"
-                     Grid.Row="3"
+                     Grid.Row="2"
                      HorizontalAlignment="Stretch"
                      VerticalAlignment="Center"                     
                      dataAccess:PasswordBoxAssistant.BindPassword="True"
-                     dataAccess:PasswordBoxAssistant.BoundPassword="{Binding RegisterUser.Password, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                     dataAccess:PasswordBoxAssistant.BoundPassword="{Binding RegisterCreativeTeam.Password, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
 
-        <Button Grid.Row="4"
+        <TextBox materialDesign:HintAssist.Hint="Жанр"
+                 Grid.Row="3"
+                 VerticalAlignment="Center"
+                 HorizontalAlignment="Stretch"
+                 Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                 Text="{Binding RegisterCreativeTeam.Genre}" />
+
+        <TextBox materialDesign:HintAssist.Hint="О себе"
+                 Grid.Row="4"
+                 Height="100"
+                 TextWrapping="Wrap"
+                 VerticalAlignment="Center"
+                 HorizontalAlignment="Stretch"
+                 Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                 Text="{Binding RegisterCreativeTeam.About}" />
+        <Grid Grid.Row="5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Image Grid.Column="0"
+                   Margin="40 0 40 0"
+                   Source="{Binding ImageThumbnail}"></Image>
+            <Button Style="{StaticResource MaterialDesignFlatButton}"
+                    Grid.Column="1"
+                    Height="Auto"
+                    Width="Auto"
+                    HorizontalAlignment="Right"
+                    ToolTip="Выбрать фотографию"
+                    Command="{Binding OpenFileDialogCommand}"
+                    CommandParameter="{Binding }">
+                <materialDesign:PackIcon Kind="ClipboardAccount"
+                                         Width="25"
+                                         Height="25"
+                                         HorizontalAlignment="Center"></materialDesign:PackIcon>
+            </Button>
+
+        </Grid>
+
+        <TextBlock Grid.Row="6"
+                   HorizontalAlignment="Stretch"
+                   VerticalAlignment="Bottom"
+                   Text="{Binding Warning}"></TextBlock>
+
+        <Button Grid.Row="7"
                 Style="{StaticResource MaterialDesignRaisedButton}"
                 Margin="65 20 65 0"
                 Command="{Binding CreateUserCommand}"
