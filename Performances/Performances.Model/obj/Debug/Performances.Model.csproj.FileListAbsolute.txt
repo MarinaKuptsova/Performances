@@ -8,3 +8,8 @@ C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Perfo
 C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.Model\bin\Debug\Performances.Model.pdb
 C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.Model\obj\Debug\Performances.Model.dll
 C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.Model\obj\Debug\Performances.Model.pdb
+D:\My Docs\Visual Studio 2017\Projects\Performances\Performances\Performances\Performances.Model\bin\Debug\Performances.Model.dll
+D:\My Docs\Visual Studio 2017\Projects\Performances\Performances\Performances\Performances.Model\bin\Debug\Performances.Model.pdb
+D:\My Docs\Visual Studio 2017\Projects\Performances\Performances\Performances\Performances.Model\obj\Debug\Performances.Model.csproj.CoreCompileInputs.cache
+D:\My Docs\Visual Studio 2017\Projects\Performances\Performances\Performances\Performances.Model\obj\Debug\Performances.Model.dll
+D:\My Docs\Visual Studio 2017\Projects\Performances\Performances\Performances\Performances.Model\obj\Debug\Performances.Model.pdb

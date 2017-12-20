@@ -13,3 +13,11 @@ C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Perfo
 C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.DataLayer\obj\Debug\Performances.DataLayer.csprojResolveAssemblyReference.cache
 C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.DataLayer\obj\Debug\Performances.DataLayer.dll
 C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.DataLayer\obj\Debug\Performances.DataLayer.pdb
+D:\My Docs\Visual Studio 2017\Projects\Performances\Performances\Performances\Performances.DataLayer\bin\Debug\Performances.DataLayer.dll
+D:\My Docs\Visual Studio 2017\Projects\Performances\Performances\Performances\Performances.DataLayer\bin\Debug\Performances.DataLayer.pdb
+D:\My Docs\Visual Studio 2017\Projects\Performances\Performances\Performances\Performances.DataLayer\bin\Debug\Performances.Model.dll
+D:\My Docs\Visual Studio 2017\Projects\Performances\Performances\Performances\Performances.DataLayer\bin\Debug\Performances.Model.pdb
+D:\My Docs\Visual Studio 2017\Projects\Performances\Performances\Performances\Performances.DataLayer\obj\Debug\Performances.DataLayer.csprojResolveAssemblyReference.cache
+D:\My Docs\Visual Studio 2017\Projects\Performances\Performances\Performances\Performances.DataLayer\obj\Debug\Performances.DataLayer.csproj.CoreCompileInputs.cache
+D:\My Docs\Visual Studio 2017\Projects\Performances\Performances\Performances\Performances.DataLayer\obj\Debug\Performances.DataLayer.dll
+D:\My Docs\Visual Studio 2017\Projects\Performances\Performances\Performances\Performances.DataLayer\obj\Debug\Performances.DataLayer.pdb

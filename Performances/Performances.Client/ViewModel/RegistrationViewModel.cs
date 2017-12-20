@@ -131,7 +131,7 @@ namespace Performances.Client.ViewModel
         {
             get
             {
-                return _createUserCommand ?? (_createUserCommand =
+                return _createUserCommand ?? (_createCreativeTeamCommand =
                            new RelayCommand(param => ExecuteCreateCreativeTeamCommand(param),
                                param => CanExecuteCreateCreativeTeamCommand(param)));
             }
