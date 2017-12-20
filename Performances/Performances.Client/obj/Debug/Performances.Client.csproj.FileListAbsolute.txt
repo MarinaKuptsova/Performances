@@ -1,0 +1,16 @@
+C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.Client\bin\Debug\Performances.Client.exe.config
+C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.Client\bin\Debug\Performances.Client.exe
+C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.Client\bin\Debug\Performances.Client.pdb
+C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.Client\obj\Debug\Performances.Client.csprojResolveAssemblyReference.cache
+C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.Client\obj\Debug\MainWindow.g.cs
+C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.Client\obj\Debug\View\UserLoginView.g.cs
+C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.Client\obj\Debug\App.g.cs
+C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.Client\obj\Debug\Performances.Client_MarkupCompile.cache
+C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.Client\obj\Debug\Performances.Client_MarkupCompile.lref
+C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.Client\obj\Debug\MainWindow.baml
+C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.Client\obj\Debug\View\UserLoginView.baml
+C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.Client\obj\Debug\Performances.Client.g.resources
+C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.Client\obj\Debug\Performances.Client.Properties.Resources.resources
+C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.Client\obj\Debug\Performances.Client.csproj.GenerateResource.Cache
+C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.Client\obj\Debug\Performances.Client.exe
+C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.Client\obj\Debug\Performances.Client.pdb

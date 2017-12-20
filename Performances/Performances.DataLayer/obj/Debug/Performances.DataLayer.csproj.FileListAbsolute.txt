@@ -1,0 +1,15 @@
+D:\leti\4\Project\Application\Performances\Performances.DataLayer\bin\Debug\Performances.DataLayer.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer\bin\Debug\Performances.DataLayer.pdb
+D:\leti\4\Project\Application\Performances\Performances.DataLayer\bin\Debug\Performances.Model.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer\bin\Debug\Performances.Model.pdb
+D:\leti\4\Project\Application\Performances\Performances.DataLayer\obj\Debug\Performances.DataLayer.csprojResolveAssemblyReference.cache
+D:\leti\4\Project\Application\Performances\Performances.DataLayer\obj\Debug\Performances.DataLayer.csproj.CoreCompileInputs.cache
+D:\leti\4\Project\Application\Performances\Performances.DataLayer\obj\Debug\Performances.DataLayer.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer\obj\Debug\Performances.DataLayer.pdb
+C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.DataLayer\bin\Debug\Performances.DataLayer.dll
+C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.DataLayer\bin\Debug\Performances.DataLayer.pdb
+C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.DataLayer\bin\Debug\Performances.Model.dll
+C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.DataLayer\bin\Debug\Performances.Model.pdb
+C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.DataLayer\obj\Debug\Performances.DataLayer.csprojResolveAssemblyReference.cache
+C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.DataLayer\obj\Debug\Performances.DataLayer.dll
+C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.DataLayer\obj\Debug\Performances.DataLayer.pdb

@@ -1,0 +1,130 @@
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\Performances.DataLayer.PostgreSQL.Tests.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\Performances.DataLayer.PostgreSQL.Tests.pdb
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\Performances.DataLayer.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\Performances.DataLayer.PostgreSQL.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\Performances.Model.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\Npgsql.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\Performances.DataLayer.PostgreSQL.pdb
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\Performances.DataLayer.PostgreSQL.dll.config
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\Performances.DataLayer.pdb
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\Performances.Model.pdb
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\Npgsql.xml
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\obj\Debug\Performances.DataLayer.PostgreSQL.Tests.csprojResolveAssemblyReference.cache
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\obj\Debug\Performances.DataLayer.PostgreSQL.Tests.csproj.CoreCompileInputs.cache
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\obj\Debug\Performances.DataLayer.PostgreSQL.Tests.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\obj\Debug\Performances.DataLayer.PostgreSQL.Tests.pdb
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\Performances.DataLayer.PostgreSQL.Tests.dll.config
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\Microsoft.Win32.Primitives.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\netstandard.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.AppContext.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Collections.Concurrent.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Collections.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Collections.NonGeneric.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Collections.Specialized.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.ComponentModel.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.ComponentModel.Primitives.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.ComponentModel.TypeConverter.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Console.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Data.Common.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Diagnostics.Contracts.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Diagnostics.Debug.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Diagnostics.Process.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Diagnostics.StackTrace.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Diagnostics.Tools.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Diagnostics.TraceSource.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Diagnostics.Tracing.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Drawing.Primitives.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Dynamic.Runtime.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Globalization.Calendars.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Globalization.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Globalization.Extensions.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.IO.Compression.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.IO.Compression.ZipFile.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.IO.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.IO.FileSystem.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.IO.FileSystem.Primitives.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.IO.FileSystem.Watcher.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.IO.IsolatedStorage.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.IO.MemoryMappedFiles.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.IO.Pipes.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Linq.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Linq.Expressions.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Linq.Parallel.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Linq.Queryable.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Net.Http.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Net.NameResolution.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Net.NetworkInformation.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Net.Ping.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Net.Primitives.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Net.Requests.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Net.Security.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Net.Sockets.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Net.WebHeaderCollection.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Net.WebSockets.Client.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Net.WebSockets.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.ObjectModel.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Reflection.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Reflection.Extensions.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Reflection.Primitives.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Resources.Reader.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Resources.ResourceManager.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Resources.Writer.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Runtime.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Runtime.Extensions.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Runtime.Handles.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Runtime.InteropServices.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Runtime.Numerics.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Runtime.Serialization.Formatters.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Runtime.Serialization.Json.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Runtime.Serialization.Primitives.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Runtime.Serialization.Xml.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Security.Claims.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Security.Cryptography.Csp.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Security.Cryptography.Encoding.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Security.Cryptography.Primitives.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Security.Principal.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Security.SecureString.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Text.Encoding.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Text.Encoding.Extensions.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Text.RegularExpressions.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Threading.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Threading.Overlapped.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Threading.Tasks.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Threading.Tasks.Parallel.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Threading.Thread.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Threading.ThreadPool.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Threading.Timer.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.ValueTuple.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Xml.ReaderWriter.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Xml.XDocument.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Xml.XmlDocument.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Xml.XmlSerializer.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Xml.XPath.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Xml.XPath.XDocument.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\leti\4\Project\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\obj\Debug\Performances.DataLayer.PostgreSQL.Tests.csprojResolveAssemblyReference.cache
+C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\Performances.DataLayer.PostgreSQL.Tests.dll.config
+C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\Performances.DataLayer.PostgreSQL.Tests.dll
+C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\Performances.DataLayer.PostgreSQL.Tests.pdb
+C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\Performances.DataLayer.dll
+C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\Performances.DataLayer.PostgreSQL.dll
+C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\Performances.Model.dll
+C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\Npgsql.dll
+C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\Performances.DataLayer.PostgreSQL.pdb
+C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\Performances.DataLayer.pdb
+C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\Performances.Model.pdb
+C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\bin\Debug\Npgsql.xml
+C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\obj\Debug\Performances.DataLayer.PostgreSQL.Tests.dll
+C:\Users\302\Documents\Visual Studio 2015\Projects\Application\Application\Performances\Performances.DataLayer.PostgreSQL.Tests\obj\Debug\Performances.DataLayer.PostgreSQL.Tests.pdb
