@@ -1,0 +1,7 @@
+﻿################################################################################
+# Данный GITIGNORE-файл был автоматически создан Microsoft(R) Visual Studio.
+################################################################################
+
+/Performances/.vs/Performances/v15
+/Performances/Performances.Client/obj/Debug
+/Performances/Performances.Api
