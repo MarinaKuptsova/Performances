@@ -7,7 +7,8 @@
              xmlns:l="clr-namespace:Performances.Client.DataAccess"
              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              mc:Ignorable="d" 
-             d:DesignHeight="300" d:DesignWidth="300">
+             Height="300" 
+             Width="300">
     <UserControl.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
@@ -33,11 +34,11 @@
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
 
-        <TextBox materialDesign:HintAssist.Hint="Логин"
+        <TextBox materialDesign:HintAssist.Hint="Email"
                  Grid.Row="0"
                  VerticalAlignment="Center"
                  HorizontalAlignment="Stretch"
-                 Text="{Binding Path=OldUser.FirstName}"
+                 Text="{Binding Path=CurrentUser.Email}"
                  Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
         <PasswordBox materialDesign:HintAssist.Hint="Пароль"
                      Style="{StaticResource MaterialDesignFloatingHintPasswordBox}"
@@ -45,7 +46,7 @@
                      HorizontalAlignment="Stretch"
                      VerticalAlignment="Center"
                      l:PasswordBoxAssistant.BindPassword="True"
-                     l:PasswordBoxAssistant.BoundPassword="{Binding Path=OldUser.Password, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                     l:PasswordBoxAssistant.BoundPassword="{Binding Path=CurrentUser.Password, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
         <TextBlock Grid.Row="3"
                    HorizontalAlignment="Stretch"
                    VerticalAlignment="Bottom"
