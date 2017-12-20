@@ -137,7 +137,7 @@ namespace Performances.Client.ViewModel
             }
         }
 
-        async Task<User> ExecuteCreateCreativeTeamCommand(object param)
+        async Task<CreativeTeam> ExecuteCreateCreativeTeamCommand(object param)
         {
             if (RegisterUser.Name == null || RegisterUser.Surname == null || RegisterUser.Password == null)
             {
@@ -150,11 +150,11 @@ namespace Performances.Client.ViewModel
                 createCreativeTeam.creativeTeam = RegisterCreativeTeam;
                 createCreativeTeam.photo = AttachedPhoto.Bytes;
                 createCreativeTeam.filename = AttachedPhoto.Filename;
-                var user = await DataAccess.DataAccess.CreateCreativeTeam(createCreativeTeam);
+                var creativeTeam = await DataAccess.DataAccess.CreateCreativeTeam(createCreativeTeam);
                 Warning = null;
                 Parent.CurrentScreenType = ScreenTypes.Login;
                 Parent.SetScreen();
-                return user;
+                return creativeTeam;
             }
         }
 
