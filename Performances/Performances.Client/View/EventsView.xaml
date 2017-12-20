@@ -1,0 +1,78 @@
+﻿<UserControl x:Class="Performances.Client.View.EventsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Performances.Client.View"
+             xmlns:dragablz="clr-namespace:Dragablz;assembly=Dragablz"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <dragablz:TabablzControl>
+        <TabItem Name="События">
+            <ScrollViewer VerticalScrollBarVisibility="Hidden">
+                <ItemsControl ItemsSource="{Binding AllEvents}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <materialDesign:Card Height="Auto"
+                                                 Margin="4 4 4 4">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition></ColumnDefinition>
+                                        <ColumnDefinition></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition></RowDefinition>
+                                        <RowDefinition></RowDefinition>
+                                        <RowDefinition></RowDefinition>
+                                        <RowDefinition></RowDefinition>
+                                    </Grid.RowDefinitions>
+                                    <Image Grid.Column="0"
+                                           Grid.Row="0"
+                                           Grid.RowSpan="4"
+                                           Margin="4 4 4 4"
+                                           Source="{Binding Photo}" />
+                                    <TextBlock Grid.Column="1"
+                                               Grid.Row="0"
+                                               Style="{StaticResource MaterialDesignHeadlineTextBlock}">
+                                        Название группы
+                                    </TextBlock>
+                                    <TextBlock Grid.Column="1"
+                                               Grid.Row="1"
+                                               Foreground="Gray"
+                                               Text="{Binding Place}">
+                                        Место выступления
+                                    </TextBlock>
+                                    <WrapPanel Grid.Column="1"
+                                               Grid.Row="2">
+                                        <Button Style="{StaticResource MaterialDesignFlatButton}"
+                                                Height="Auto"
+                                                Width="Auto">
+                                            Я иду
+                                        </Button>
+                                        <Button Style="{StaticResource MaterialDesignFlatButton}"
+                                                Height="Auto"
+                                                Width="Auto">
+                                            Я не иду
+                                        </Button>
+                                        <materialDesign:PackIcon Kind="AccountMultiple" />
+                                    </WrapPanel>
+                                    <TextBlock Grid.Column="1"
+                                               Grid.Row="3">
+                                        Описание проекта
+                                    </TextBlock>
+                                </Grid>
+                            </materialDesign:Card>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </ScrollViewer>
+        </TabItem>
+        <TabItem Name="Любимое">
+
+        </TabItem>
+        <TabItem Name="Иду">
+
+        </TabItem>
+    </dragablz:TabablzControl>
+</UserControl>
